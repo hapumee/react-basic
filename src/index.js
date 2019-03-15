@@ -1,10 +1,59 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+// import App from './App';
+// import Greeting from './example/Chap2_Greeting';
+// import TickingClock from './example/Chap3_TickingClock';
+// import ComponentsAndProps from './example/Chap4_ComponentsAndProps';
+// import Comment from './example/Chap4_Comment';
+// import TickingClockWithState from './example/Chap5_TickingClock';
+// import Toggle from './example/Chap6_Toggle';
+// import LoginControl from './example/Chap7_LoginControl';
+// import Mailbox from './example/Chap7_Mailbox';
+// import WarningBannerPage from './example/Chap7_WarningBannerPage';
+import ListsAndKeys from './example/Chap8_ListsAndKeys';
+// import Blog from './example/Chap8_Blog';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<Greeting />, document.getElementById('root'));
+// ReactDOM.render(<TickingClock />, document.getElementById('root'));
+// ReactDOM.render(<ComponentsAndProps />, document.getElementById('root'));
+// ReactDOM.render(<Test />, document.getElementById('root'));
+// ReactDOM.render(<Comment />, document.getElementById('root'));
+// ReactDOM.render(<TickingClockWithState />, document.getElementById('root'));
+// ReactDOM.render(<Toggle />, document.getElementById('root'));
+// ReactDOM.render(<LoginControl />, document.getElementById('root'));
+// ReactDOM.render(<Mailbox />, document.getElementById('root'));
+// ReactDOM.render(<WarningBannerPage />, document.getElementById('root'));
+ReactDOM.render(<ListsAndKeys />, document.getElementById('root'));
+// ReactDOM.render(<Blog />, document.getElementById('root'));
+
+// TEST ---------------------------------------------------
+// function tick() {
+//     console.log("tick!");
+    // const element = (
+    //     <div>
+    //         <h1>Hello, World!!</h1>
+    //         <h2>It is {new Date().toLocaleTimeString()}</h2>
+    //     </div>
+    // );
+    // ReactDOM.render(element, document.getElementById('root'));
+    // ReactDOM.render(<TickingClockWithState />, document.getElementById('root'));
+// }
+
+// setInterval(tick, 1000);
+
+/*function Test(props) {
+    return (
+        <div>
+            <ComponentsAndProps name="AAA" />
+            <ComponentsAndProps name="BBB" />
+            <ComponentsAndProps name="CCC" />
+        </div>
+    );
+}*/
+// TEST ---------------------------------------------------
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
