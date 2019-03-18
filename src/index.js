@@ -12,8 +12,12 @@ import * as serviceWorker from './serviceWorker';
 // import LoginControl from './example/Chap7_LoginControl';
 // import Mailbox from './example/Chap7_Mailbox';
 // import WarningBannerPage from './example/Chap7_WarningBannerPage';
-import ListsAndKeys from './example/Chap8_ListsAndKeys';
+// import ListsAndKeys from './example/Chap8_ListsAndKeys';
 // import Blog from './example/Chap8_Blog';
+// import NameForm from './example/Chap9_Forms';
+// import EssayForms from './example/Chap9_TextareaForms';
+// import FlavorForm from './example/Chap9_SelectForms';
+import Reservation from './example/Chap9_ReservationForms';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<Greeting />, document.getElementById('root'));
@@ -26,8 +30,12 @@ import ListsAndKeys from './example/Chap8_ListsAndKeys';
 // ReactDOM.render(<LoginControl />, document.getElementById('root'));
 // ReactDOM.render(<Mailbox />, document.getElementById('root'));
 // ReactDOM.render(<WarningBannerPage />, document.getElementById('root'));
-ReactDOM.render(<ListsAndKeys />, document.getElementById('root'));
+// ReactDOM.render(<ListsAndKeys />, document.getElementById('root'));
 // ReactDOM.render(<Blog />, document.getElementById('root'));
+// ReactDOM.render(<NameForm />, document.getElementById('root'));
+// ReactDOM.render(<EssayForms />, document.getElementById('root'));
+// ReactDOM.render(<FlavorForm />, document.getElementById('root'));
+ReactDOM.render(<Reservation />, document.getElementById('root'));
 
 // TEST ---------------------------------------------------
 // function tick() {
