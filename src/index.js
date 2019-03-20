@@ -18,7 +18,8 @@ import * as serviceWorker from './serviceWorker';
 // import EssayForms from './example/Chap9_TextareaForms';
 // import FlavorForm from './example/Chap9_SelectForms';
 // import Reservation from './example/Chap9_ReservationForms';
-import Calculator from './example/Chap10_Calculator';
+// import Calculator from './example/Chap10_Calculator';
+import SignUpDialog from './example/Chap11_SignUpDialog';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<Greeting />, document.getElementById('root'));
@@ -37,7 +38,8 @@ import Calculator from './example/Chap10_Calculator';
 // ReactDOM.render(<EssayForms />, document.getElementById('root'));
 // ReactDOM.render(<FlavorForm />, document.getElementById('root'));
 // ReactDOM.render(<Reservation />, document.getElementById('root'));
-ReactDOM.render(<Calculator />, document.getElementById('root'));
+// ReactDOM.render(<Calculator />, document.getElementById('root'));
+ReactDOM.render(<SignUpDialog />, document.getElementById('root'));
 
 // TEST ---------------------------------------------------
 // function tick() {
