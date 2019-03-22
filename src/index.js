@@ -19,7 +19,8 @@ import * as serviceWorker from './serviceWorker';
 // import FlavorForm from './example/Chap9_SelectForms';
 // import Reservation from './example/Chap9_ReservationForms';
 // import Calculator from './example/Chap10_Calculator';
-import SignUpDialog from './example/Chap11_SignUpDialog';
+// import SignUpDialog from './example/Chap11_SignUpDialog';
+import FilterableProductTable from './example/Chap12_FilterableProductTable';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<Greeting />, document.getElementById('root'));
@@ -39,7 +40,17 @@ import SignUpDialog from './example/Chap11_SignUpDialog';
 // ReactDOM.render(<FlavorForm />, document.getElementById('root'));
 // ReactDOM.render(<Reservation />, document.getElementById('root'));
 // ReactDOM.render(<Calculator />, document.getElementById('root'));
-ReactDOM.render(<SignUpDialog />, document.getElementById('root'));
+// ReactDOM.render(<SignUpDialog />, document.getElementById('root'));
+
+const PRODUCTS = [
+    {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+    {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+    {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+    {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+    {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+    {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+];
+ReactDOM.render(<FilterableProductTable products={PRODUCTS} />, document.getElementById('root'));
 
 // TEST ---------------------------------------------------
 // function tick() {
