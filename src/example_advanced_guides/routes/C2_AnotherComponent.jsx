@@ -1,5 +1,5 @@
 import React from 'react';
-import * as CodeSplittingMath from '../CodeSplittingMath';
+import * as CodeSplittingMath from '../C2_CodeSplittingMath';
 
 class AnotherComponent extends React.Component {
     render() {

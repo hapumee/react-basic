@@ -2,8 +2,8 @@ import React, { Suspense, lazy } from 'react';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
 // import ErrorBoundary from './ErrorBoundary';
 
-const OtherComponent = lazy(() => import('./routes/OtherComponent'));
-const AnotherComponent = lazy(() => import('./routes/AnotherComponent'));
+const OtherComponent = lazy(() => import('./routes/C2_OtherComponent'));
+const AnotherComponent = lazy(() => import('./routes/C2_AnotherComponent'));
 
 class CodeSplitting extends React.Component {
     render() {

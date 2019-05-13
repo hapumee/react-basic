@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import * as CodeSplittingMath from '../CodeSplittingMath';
+import * as CodeSplittingMath from '../C2_CodeSplittingMath';
 
 class OtherComponent extends React.Component {
     render() {

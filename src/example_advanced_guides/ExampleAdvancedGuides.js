@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
 import NotFound from '../error/NotFound';
-import CodeSplitting from './CodeSplitting';
+import CodeSplitting from './C2_CodeSplitting';
 
 class ExampleAdvancedGuides extends React.Component {
     render() {
