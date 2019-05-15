@@ -6,6 +6,10 @@ import WithoutJSXHello from './C13_WithoutJSX';
 import WithoutES6Greeting from "./C12_WithoutES6_Greeting";
 import WithoutES6Counter from "./C12_WithoutES6_Counter";
 import WithoutES6Binding from "./C12_WithoutES6_Binding";
+import MouseTracker1 from "./C16_RenderProps_MouseTracker1";
+import MouseTracker2 from "./C16_RenderProps_MouseTracker2";
+import MouseTracker3 from "./C16_RenderProps_MouseTracker3";
+import MouseTracker4 from "./C16_RenderProps_MouseTracker4";
 
 class ExampleAdvancedGuides extends React.Component {
     render() {
@@ -17,6 +21,10 @@ class ExampleAdvancedGuides extends React.Component {
                     <li><Link to="/example-advanced-guides/without-es6-greeting">WithoutES6 > Greeting</Link></li>
                     <li><Link to="/example-advanced-guides/without-es6-counter">WithoutES6 > Counter</Link></li>
                     <li><Link to="/example-advanced-guides/without-es6-binding">WithoutES6 > Binding</Link></li>
+                    <li><Link to="/example-advanced-guides/mousetracker1">MouseTracker > Basic</Link></li>
+                    <li><Link to="/example-advanced-guides/mousetracker2">MouseTracker > Capsulization (Mouse Component)</Link></li>
+                    <li><Link to="/example-advanced-guides/mousetracker3">MouseTracker > Capsulization (MouseWithCat Component)</Link></li>
+                    <li><Link to="/example-advanced-guides/mousetracker4">MouseTracker > Capsulization (render function)</Link></li>
                 </ul>
                 <hr />
                 <Switch>
@@ -25,6 +33,10 @@ class ExampleAdvancedGuides extends React.Component {
                     <Route path="/example-advanced-guides/without-es6-greeting" component={() => <WithoutES6Greeting name="Alex" />} />
                     <Route path="/example-advanced-guides/without-es6-counter" component={() => <WithoutES6Counter initialiCount="99" />} />
                     <Route path="/example-advanced-guides/without-es6-binding" component={() => <WithoutES6Binding />} />
+                    <Route path="/example-advanced-guides/mousetracker1" component={() => <MouseTracker1 />} />
+                    <Route path="/example-advanced-guides/mousetracker2" component={() => <MouseTracker2 />} />
+                    <Route path="/example-advanced-guides/mousetracker3" component={() => <MouseTracker3 />} />
+                    <Route path="/example-advanced-guides/mousetracker4" component={() => <MouseTracker4 />} />
                     <Route component={NotFound} />
                 </Switch>
             </div>
