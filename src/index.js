@@ -8,6 +8,7 @@ import Home from './Home';
 import ExampleMainConcepts from './example_main_concepts/ExampleMainConcepts';
 import ExampleAdvancedGuides from './example_advanced_guides/ExampleAdvancedGuides';
 import ExampleFurtherMore from './example-further-more/ExampleFurtherMore';
+import ComponentLifecycle from './lifecycle/ComponentLifecycle';
 
 const routing = (
     <Router>
@@ -17,6 +18,7 @@ const routing = (
                 <li><Link to="/example-main-concepts">Example of Main Concepts</Link></li>
                 <li><Link to="/example-advanced-guides">Example of Advanced Guides</Link></li>
                 <li><Link to="/example-further-more">Further More Example</Link></li>
+                <li><Link to="/lifecycle">Lifecycle</Link></li>
             </ul>
             <hr />
             <Switch>
@@ -24,6 +26,7 @@ const routing = (
                 <Route path="/example-main-concepts" component={ExampleMainConcepts} />
                 <Route path="/example-advanced-guides" component={ExampleAdvancedGuides} />
                 <Route path="/example-further-more" component={ExampleFurtherMore} />
+                <Route component={ComponentLifecycle} />
                 <Route component={NotFound} />
             </Switch>
         </div>
